@@ -6,5 +6,10 @@
     "typescript", // Enable .ts
     "typescriptreact" // Enable .tsx
   ],
-  "stylelint.validate": ["html", "vue", "svelte", "astro"]
+  "stylelint.validate": ["html", "vue", "svelte", "astro"],
+  "prettier.documentSelectors": ["**/*.astro"],
+  "[astro]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
